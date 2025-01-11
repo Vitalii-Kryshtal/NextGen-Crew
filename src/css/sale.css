@@ -35,12 +35,21 @@
   display: flex;
   flex-direction: row;
   gap: 5px;
+  max-width: 335px;
+  justify-self: center;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .sale-list {
     flex-direction: column;
     gap: 10px;
+    max-width: auto;
+    max-height: 558px;
+    max-width: 132px;
+    justify-self: flex-start;
+    margin-bottom: 40px;
+    margin-left: 20px;
   }
 }
 
@@ -52,17 +61,12 @@
   border-radius: 16px;
   background: #f3f3f3;
   padding: 13px 14px;
-  max-width: 80px;
   height: auto;
 }
 
 @media screen and (min-width: 768px) {
   .sale-list-item {
-    border: 1px solid rgba(12, 12, 12, 0.05);
-    border-radius: 16px;
-    background: #f3f3f3;
     padding: 16px 18px;
-    max-width: 132px;
   }
 }
 
@@ -74,6 +78,7 @@
   justify-content: center;
   align-items: center;
   padding: 50px;
+  max-width: 335px;
 }
 
 @media screen and (min-width: 768px) {
