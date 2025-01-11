@@ -31,41 +31,51 @@
   }
 }
 
+.sale-content-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-content-wrap {
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+}
+
 .sale-list {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 5px;
-  max-width: 335px;
-  justify-self: center;
-  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .sale-list {
     flex-direction: column;
     gap: 10px;
-    max-width: auto;
-    max-height: 558px;
-    max-width: 132px;
-    justify-self: flex-start;
-    margin-bottom: 40px;
-    margin-left: 20px;
+    height: 558px;
   }
 }
 
 .sale-list-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
+  max-width: 80px;
   background: #f3f3f3;
   padding: 13px 14px;
-  height: auto;
 }
 
 @media screen and (min-width: 768px) {
   .sale-list-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    max-width: 132px;
+    background: #f3f3f3;
     padding: 16px 18px;
   }
 }
@@ -73,22 +83,27 @@
 .sale-main-watch-container {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
+  max-width: 335px;
+  width: 100%;
   background: #f3f3f3;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px;
-  max-width: 335px;
 }
 
 @media screen and (min-width: 768px) {
   .sale-main-watch-container {
+    max-width: 552px;
+    height: 558px;
     padding: 80px 112px;
+    align-self: baseline;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .sale-main-watch-container {
+    max-width: 428px;
     padding: 80px 50px;
     margin-right: 20px;
   }
@@ -96,18 +111,22 @@
 
 .sale-description-container {
   border-radius: 30px;
+  max-width: 335px;
   background: #3350e9;
   padding: 48px 28px;
 }
 
 @media screen and (min-width: 768px) {
   .sale-description-container {
+    max-width: 704px;
     padding: 60px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .sale-description-container {
+    max-width: 530px;
+    height: 558px;
   }
 }
 
