@@ -1,0 +1,237 @@
+.sale-section {
+  padding: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-section {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sale-section {
+    padding: 50px 0;
+  }
+}
+
+.sale-header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-header {
+    font-size: 48px;
+    line-height: 92%;
+    margin-bottom: 40px;
+  }
+}
+
+.sale-content-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-content-wrap {
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+}
+
+.sale-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-list {
+    flex-direction: column;
+    gap: 10px;
+    height: 558px;
+  }
+}
+
+.sale-list-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  max-width: 80px;
+  background: #f3f3f3;
+  padding: 13px 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-list-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    max-width: 132px;
+    background: #f3f3f3;
+    padding: 16px 18px;
+  }
+}
+
+.sale-main-watch-container {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  max-width: 335px;
+  width: 100%;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-main-watch-container {
+    max-width: 552px;
+    height: 558px;
+    padding: 80px 112px;
+    align-self: baseline;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sale-main-watch-container {
+    max-width: 428px;
+    padding: 80px 50px;
+    margin-right: 20px;
+  }
+}
+
+.sale-description-container {
+  border-radius: 30px;
+  max-width: 335px;
+  background: #3350e9;
+  padding: 48px 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-description-container {
+    max-width: 704px;
+    padding: 60px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sale-description-container {
+    max-width: 530px;
+    height: 558px;
+  }
+}
+
+.sale-main-watch-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-main-watch-header {
+    font-size: 24px;
+    line-height: 112%;
+  }
+}
+
+.sale-product-tag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 20px;
+}
+
+.sale-price {
+  margin-bottom: 36px;
+}
+
+.sale-old-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-new-price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  border-radius: 8px;
+  background: rgba(251, 251, 251, 0.1);
+  text-decoration: none;
+  padding: 8px 12px;
+  margin-right: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-new-price {
+    font-size: 20px;
+    line-height: 100%;
+  }
+}
+
+.sale-description-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-description-text {
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 40px;
+  }
+}
+
+.sale-descr-features-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 8px;
+}
+
+.sale-descr-feature-item {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 133%;
+  color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-descr-feature-item {
+    font-size: 14px;
+    line-height: 129%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .sale-descr-feature-item:nth-child(3) {
+    margin-right: 200px;
+  }
+}
