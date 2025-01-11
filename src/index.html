@@ -5,8 +5,13 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Watch Charm</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
@@ -21,80 +26,6 @@
       <load src="partials/reviews.html" />
       <load src="partials/contact-us.html" />
     </main>
-
-    <div class="mobile-menu">
-      <div class="mobile-menu-container">
-        <button class="mobile-menu-button-close">
-          <svg class="mobile-menu-button-close-svg" width="34" height="34">
-            <use
-              class="mobile-menu-button-close-icon"
-              href="./img/sprite.svg#icon-mobile-menu-close"
-            ></use>
-          </svg>
-        </button>
-
-        <nav class="mobile-menu-nav">
-          <ul class="mobile-menu-nav-list">
-            <li class="mobile-menu-nav-item">
-              <a class="mobile-menu-nav-item-link" href="#">Home</a>
-            </li>
-            <li class="mobile-menu-nav-item">
-              <a class="mobile-menu-nav-item-link" href="#">About Us</a>
-            </li>
-            <li class="mobile-menu-nav-item">
-              <a class="mobile-menu-nav-item-link" href="#">Catalog</a>
-            </li>
-            <li class="mobile-menu-nav-item">
-              <a class="mobile-menu-nav-item-link" href="#">Sale</a>
-            </li>
-            <li class="mobile-menu-nav-item">
-              <a class="mobile-menu-nav-item-link" href="#">Reviews</a>
-            </li>
-            <li class="mobile-menu-nav-item">
-              <a class="mobile-menu-nav-item-link" href="#">Contact Us</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="mobile-menu-social-icons">
-          <ul class="mobile-menu-social-icons-list">
-            <li class="mobile-menu-social-icons-item">
-              <a class="mobile-menu-social-icons-item-link" href="#">
-                <svg
-                  class="mobile-menu-social-icons-svg"
-                  width="18"
-                  height="18"
-                >
-                  <use href="./img/sprite.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-menu-social-icons-item">
-              <a class="mobile-menu-social-icons-item-link" href="#">
-                <svg
-                  class="mobile-menu-social-icons-svg"
-                  width="18"
-                  height="18"
-                >
-                  <use href="./img/sprite.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-menu-social-icons-item">
-              <a class="mobile-menu-social-icons-item-link" href="#">
-                <svg
-                  class="mobile-menu-social-icons-svg"
-                  width="18"
-                  height="18"
-                >
-                  <use href="./img/sprite.svg#icon-youtube"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
 
     <load src="./partials/footer.html" />
   </body>

@@ -1,0 +1,101 @@
+.reviews {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.section-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+.rev-list {
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  padding: 32px 36px;
+  display: none;
+  align-items: flex-start;
+}
+.rev-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.rev-img {
+  padding-bottom: 24px;
+}
+.rev-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  padding: 0 0 8px;
+}
+.rev-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: rgba(12, 12, 12, 0.4);
+}
+.rev-list-box {
+  display: flex;
+  gap: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .rev-list.john-wax {
+    display: block;
+    width: 100%;
+    max-width: 335px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .rev-list.john-wax,
+  .rev-list.victoria {
+    display: block;
+    width: calc(50% - 16px);
+  }
+}
+@media screen and (min-width: 768px) {
+  .reviews {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .section-title {
+    font-size: 48px;
+    line-height: 92%;
+    margin-bottom: 40px;
+  }
+
+  .rev-list {
+    width: calc((100% - 16px) / 2);
+  }
+  .rev-name {
+    font-size: 18px;
+    line-height: 110%;
+  }
+  .rev-text {
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .reviews {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .rev-list-box {
+    gap: 20px;
+  }
+  .rev-list {
+    display: block;
+    width: calc((100% - 20px) / 3);
+    max-width: 370px;
+  }
+}
