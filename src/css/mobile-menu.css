@@ -58,6 +58,10 @@
   height: 238px;
 }
 
+.mobile-menu-nav-item-link.current {
+  position: relative;
+}
+
 .mobile-menu-nav-item-link.current::after {
   content: '';
   position: absolute;
