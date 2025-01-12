@@ -90,7 +90,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 15px;
 }
 
@@ -103,7 +103,7 @@
 
 .footer-nav-link:hover,
 .active-link {
-  color: #ff9900;
+  color: #fbfbfb;
 }
 
 /* .footer-vector svg {
@@ -118,7 +118,7 @@
 
 .footer-bottom-container ul {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 15px;
   padding: 0;
   list-style: none;
@@ -147,7 +147,7 @@
   }
 
   .footer-nav-menu {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
   }
 
