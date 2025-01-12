@@ -235,3 +235,19 @@
     margin-right: 200px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .sale-span-hyphen {
+    margin-right: 200px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sale-span-hyphen {
+    margin-right: 0;
+  }
+
+  .sale-span-gen {
+    margin-right: 103px;
+  }
+}
