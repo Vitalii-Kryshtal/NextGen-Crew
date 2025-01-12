@@ -34,7 +34,7 @@
   }
   @media only screen and (min-width: 1280px) {
     .ctlg-ab {
-      gap: 32px;
+      gap: 16px;
       column-gap: 23px;
     }
   }
