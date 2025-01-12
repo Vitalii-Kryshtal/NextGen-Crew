@@ -32,9 +32,6 @@
       column-gap: 16px;
     }
   }
-    .ctlg-abb {
-    margin-bottom: 20px;
-  }
   @media only screen and (min-width: 768px) {
     .ctlg-abb {
       width: 344px;
