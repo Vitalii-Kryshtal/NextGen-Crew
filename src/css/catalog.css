@@ -21,15 +21,18 @@
       line-height: 92%;
     }
   }
+  .ctlg-ab {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
   @media only screen and (min-width: 768px) {
     .ctlg-ab {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
+      gap: 32px;
+      column-gap: 16px;
     }
   }
-  
-  .ctlg-abb {
+    .ctlg-abb {
     margin-bottom: 20px;
   }
   @media only screen and (min-width: 768px) {
