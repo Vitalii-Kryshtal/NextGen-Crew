@@ -1,0 +1,60 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advertisement-section {
+    padding: 60px 28px;
+    background-image: url(/src/img/advertisement-bg-mob@1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .advertisement-section {
+        padding: 80px 64px;
+    }
+}
+
+@media only screen and (min-width: 1158px) {
+    .advertisement-section {
+        padding: 83px 80px;
+    }
+}
+
+.advertisement-container {}
+
+.advertisement-text {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 28px;
+}
+
+.advertisement-text-span {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-button {
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fbfbfb;
+}
