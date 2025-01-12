@@ -141,7 +141,7 @@
 
 @media screen and (min-width: 768px) {
   .sale-main-watch-header {
-    font-size: 24px;
+    font-size: 32px;
     line-height: 112%;
   }
 }
@@ -238,7 +238,7 @@
 
 @media screen and (min-width: 768px) {
   .sale-span-hyphen {
-    margin-right: 200px;
+    margin-right: 100px;
   }
 }
 
@@ -248,6 +248,6 @@
   }
 
   .sale-span-gen {
-    margin-right: 103px;
+    margin-right: 100px;
   }
 }
