@@ -28,27 +28,25 @@
   }
   @media only screen and (min-width: 768px) {
     .ctlg-ab {
-      gap: 8px;
+      gap: 32px;
       column-gap: 16px;
     }
   }
   @media only screen and (min-width: 1280px) {
     .ctlg-ab {
-      gap: 16px;
-      column-gap: 23px;
+      column-gap:23px;
     }
   }
   @media only screen and (min-width: 768px) {
     .ctlg-abb {
       width: 344px;
-      margin-bottom: 16px;
     }
   }
   @media only screen and (min-width: 1280px) {
     .ctlg-abb {
       width: 368px;
       margin: auto;
-      margin-bottom: 16px;
+
     }
   }
   .ctlg-abc {
@@ -75,13 +73,13 @@
   }
   .ctlg-abd {
     width: 280px;
-    margin-left: 27px;
-    margin-top: 28px;
+    padding-top: 28px;
+    padding-left: 17px;
   }
   @media only screen and (min-width: 768px) {
     .ctlg-abd {
-      margin-left: 32px;
-      margin-top: 10px;
+      padding-left: 32px;
+      padding-top: 32px;
     }
   }
   @media only screen and (min-width: 1280px) {
