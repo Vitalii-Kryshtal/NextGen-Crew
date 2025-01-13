@@ -60,10 +60,12 @@
 .ctlg-abg {
   margin: 0 auto;
   margin-top: 42px;
+  margin-bottom: 28px;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-abg {
     margin-top: 34px;
+    margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -72,8 +74,6 @@
   }
 }
 .ctlg-abd {
-  /* padding-left: 27px;
-  padding-right: 28px; */
   margin-left: 27px;
   margin-right: 28px;
 }
