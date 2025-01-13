@@ -127,7 +127,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer-description {
+  .footer-text {
     font-size: 28px;
     line-height: 114%;
     max-width: 524px;
@@ -136,7 +136,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .footer-description {
+  .footer-text {
     position: absolute;
     top: 40px;
     left: 50%;
