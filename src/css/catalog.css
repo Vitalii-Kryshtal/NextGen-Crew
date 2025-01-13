@@ -1,0 +1,156 @@
+.ctlg-aa {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .ctlg-aa {
+    font-size: 48px;
+    line-height: 92%;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .ctlg-aa {
+    font-size: 48px;
+    line-height: 92%;
+  }
+}
+.ctlg-ab {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .ctlg-ab {
+    gap: 32px;
+    column-gap: 16px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .ctlg-ab {
+    column-gap: 23px;
+  }
+}
+
+.ctlg-abb {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background: #f3f3f3;
+  height: 364px;
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 768px) {
+  .ctlg-abb {
+    height: 414px;
+    width: 344px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .ctlg-abb {
+    width: 368px;
+  }
+}
+.ctlg-abg {
+  margin: 0 auto;
+  margin-top: 42px;
+  margin-bottom: 28px;
+}
+@media only screen and (min-width: 768px) {
+  .ctlg-abg {
+    margin-top: 34px;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .ctlg-abg {
+    margin-top: 30px;
+  }
+}
+.ctlg-abd {
+  margin-left: 27px;
+  margin-right: 28px;
+  padding-top: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .ctlg-abd {
+    margin-left: 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .ctlg-abd {
+    width: 334px;
+  }
+}
+.ctlg-abe {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+}
+@media only screen and (min-width: 768px) {
+  .ctlg-abe {
+    font-size: 20px;
+    line-height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .ctlg-abe {
+    font-size: 20px;
+    line-height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 304px;
+  }
+}
+.ctlg-abf {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+.ctlg-abb-nn {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .ctlg-abb-nn {
+    display: inline;
+  }
+}
+.ctlg-ac {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: #fbfbfb;
+  border: none;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .ctlg-ac {
+    display: none;
+  }
+}
