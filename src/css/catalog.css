@@ -1,5 +1,5 @@
 .ctlg-aa {
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 100%;
@@ -36,32 +36,29 @@
     column-gap: 23px;
   }
 }
+
+.ctlg-abb {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background: #f3f3f3;
+  height: 364px;
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+}
 @media only screen and (min-width: 768px) {
   .ctlg-abb {
+    height: 414px;
     width: 344px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .ctlg-abb {
     width: 368px;
-    margin: auto;
-  }
-}
-.ctlg-abc {
-  border: 1px solid rgba(12, 12, 12, 0.05);
-  border-radius: 30px;
-  background: #f3f3f3;
-  height: 364px;
-  max-width: 100%;
-}
-@media only screen and (min-width: 768px) {
-  .ctlg-abc {
-    height: 414px;
   }
 }
 .ctlg-abg {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   margin-top: 42px;
 }
 @media only screen and (min-width: 768px) {
@@ -69,30 +66,36 @@
     margin-top: 34px;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .ctlg-abg {
+    margin-top: 30px;
+  }
+}
 .ctlg-abd {
-  width: 280px;
-  padding-top: 28px;
-  padding-left: 17px;
+  /* padding-left: 27px;
+  padding-right: 28px; */
+  margin-left: 27px;
+  margin-right: 28px;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-abd {
-    padding-left: 32px;
-    padding-top: 32px;
+    padding-top: 20px;
+    margin-left: 32px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .ctlg-abd {
-    width: 304px;
+    width: 334px;
   }
 }
 .ctlg-abe {
+  font-family: "Gilroy", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 125%;
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 8px;
-  width: 280px;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-abe {
@@ -114,7 +117,7 @@
   }
 }
 .ctlg-abf {
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
@@ -142,9 +145,9 @@
   height: 48px;
   background: #3350e9;
   margin-top: 40px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-ac {
