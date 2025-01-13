@@ -6,8 +6,8 @@
   display: flex;
   flex-direction: column;
   border-radius: 30px;
-  width: 335px;
-  height: 446px;
+  width: 100%;
+
   background-color: #f3f3f3;
 }
 
@@ -61,7 +61,7 @@
 .aboutus-cont-img {
   margin-top: 20px;
   border-radius: 30px;
-  width: 335px;
+  min-width: 320px;
   height: 446px;
   background-color: rgba(12, 12, 12, 0.2);
 }
