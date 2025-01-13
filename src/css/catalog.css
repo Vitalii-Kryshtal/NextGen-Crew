@@ -76,10 +76,10 @@
 .ctlg-abd {
   margin-left: 27px;
   margin-right: 28px;
+  padding-top: 10px;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-abd {
-    padding-top: 20px;
     margin-left: 32px;
   }
 }
