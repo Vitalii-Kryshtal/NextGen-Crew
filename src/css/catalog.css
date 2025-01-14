@@ -1,6 +1,20 @@
-.ctlg-aa {
+.ctlg {
   padding-top: 30px;
-  font-family: 'Gilroy', sans-serif;
+  padding-bottom: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .ctlg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .ctlg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.ctlg-aa {
   font-weight: 600;
   font-size: 32px;
   line-height: 100%;
@@ -14,11 +28,6 @@
     font-size: 48px;
     line-height: 92%;
     padding-bottom: 40px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .ctlg-aa {
-    padding-top: 50px;
   }
 }
 .ctlg-ab {
@@ -135,17 +144,6 @@
   padding-top: 40px;
   padding-left: 87px;
   padding-right: 87px;
-  padding-bottom: 30px;
-}
-@media only screen and (min-width: 768px) {
-  .ctlg-ad {
-    padding-bottom: 40px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .ctlg-ad {
-    padding-bottom: 50px;
-  }
 }
 .ctlg-ac {
   font-weight: 500;
