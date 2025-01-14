@@ -196,7 +196,7 @@
 
 @media screen and (max-width: 767px) {
   .footer-nav-li:nth-child(2) {
-    margin-right: 100px;
+    margin-right: 50px;
   }
   .footer-nav-li:nth-child(5) {
     margin-right: 50px;
