@@ -12,65 +12,141 @@
 }
 
 .advertisement-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 60px 28px;
     border-radius: 30px;
-    background-color: #0c0c0c;;
-    background-image: url(/src/img/advertisement-bg-mob@1x.jpg);
+    background-image: linear-gradient(rgb(12, 12, 12, 0.9), rgb(12, 12, 12, 0.9)),
+     url(../img/advertisement-bg-mob@1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 0 auto;
+    margin: 60px auto;
     max-width: 335px;
+    max-height: 363px;
+}
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+.advertisement-section { 
+    background-image: linear-gradient(rgb(12, 12, 12, 0.9), rgb(12, 12, 12, 0.9)),
+            url(../img/advertisement-bg-mob@2x.jpg);
+  }
 }
 
 @media only screen and (min-width: 768px) {
     .advertisement-section {
         padding: 80px 64px;
         max-width: 704px;
+        max-height: 425px;
+       margin: 80px auto;
+    background-image: linear-gradient(rgb(12, 12, 12, 0.9), rgb(12, 12, 12, 0.9)),
+     url(../img/advertisement-bg-tab@1x.jpg);
     }
 }
 
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .advertisement-section {
+        background-image: linear-gradient(rgb(12, 12, 12, 0.9), rgb(12, 12, 12, 0.9)),
+            url(../img/advertisement-bg-tab@2x.jpg);
+    }
+}
+
+@media only screen and (min-width: 1280px) {
     .advertisement-section {
         padding: 83px 80px;
         max-width: 1150px;
+        max-height: 298px;
+        margin: 100px auto;
+        background-image: linear-gradient(rgb(12, 12, 12, 0.9), rgb(12, 12, 12, 0.9)),
+         url(../img/advertisement-bg-dec@1x.jpg);
     }
 }
 
-/* .advertisement-container {
-    max-width: 335px;
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .advertisement-section {
+        background-image: linear-gradient(rgb(12, 12, 12, 0.9), rgb(12, 12, 12, 0.9)),
+            url(../img/advertisement-bg-dec@2x.jpg);
+    }
 }
 
-@media only screen and (min-width: 768px) {
 .advertisement-container {
-        max-width: 335px;
-    }
-} */
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 1280px) {
+.advertisement-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 140px;
+  }
+}
 
 .advertisement-text {
-    font-family: Gilroy;
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
-    margin: 0 auto 28px;
-    display: block;
-    max-width: 279px;
     text-align: left;
+    min-height: 167px;
+    margin-bottom: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+.advertisement-text {
+        font-size: 48px;
+        line-height: 0.91667;
+        min-height: 185px;
+        margin-bottom: 32px;
+        max-width: 576px;
+}
+}
+
+@media only screen and (min-width: 1280px) {
+    .advertisement-text {
+        min-height: 132px;
+        max-width: 690px;
+        margin: 0;
+    }
 }
 
 .advertisement-text-span {
     color: rgba(251, 251, 251, 0.5);
 }
 
-.advertisement-button {
+.advertisement-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
-    font-family: Gilroy;
+    width: 160px;
+    height: 48px;
+}
+
+.advertisement-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
     text-align: center;
     color: #fbfbfb;
+    width: 100%;
+    height: 100%;
 }
+
+.advertisement-button:hover,
+.advertisement-button:focus {
+    background: #fbfbfb;
+    color: #0c0c0c;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+        border-radius: 16px;
+}
+
