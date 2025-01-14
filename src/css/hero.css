@@ -1,7 +1,7 @@
 .hero {
   padding-bottom: 30px;
 }
-.container {
+.container-hero {
   min-width: 320px;
   max-width: 375px;
   padding: 60px 20px 0;
@@ -75,7 +75,7 @@
   .hero {
     padding-bottom: 40px;
   }
-  .container {
+  .container-hero {
     max-width: 768px;
     padding: 80px 32px 0;
   }
@@ -118,7 +118,7 @@
   .hero {
     padding-bottom: 50px;
   }
-  .container {
+  .container-hero {
     max-width: 1280px;
     padding: 80px 65px 0;
   }
