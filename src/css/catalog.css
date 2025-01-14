@@ -1,25 +1,20 @@
 .ctlg-aa {
-  font-family: "Gilroy", sans-serif;
+  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 100%;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-aa {
     font-size: 48px;
     line-height: 92%;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
 }
-@media only screen and (min-width: 1280px) {
-  .ctlg-aa {
-    font-size: 48px;
-    line-height: 92%;
-  }
-}
+
 .ctlg-ab {
   display: flex;
   flex-wrap: wrap;
@@ -41,46 +36,43 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   background: #f3f3f3;
-  height: 364px;
-  width: 335px;
+  max-width: 335px;
   display: flex;
   flex-direction: column;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-abb {
-    height: 414px;
-    width: 344px;
+    max-width: 344px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .ctlg-abb {
-    width: 368px;
+    max-width: 368px;
   }
 }
 .ctlg-abg {
-  margin: 0 auto;
-  margin-top: 42px;
-  margin-bottom: 28px;
+  padding-top: 42px;
+  padding-left: 63px;
+  padding-right: 64px;
+  padding-bottom: 18px;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-abg {
-    margin-top: 34px;
-    margin-bottom: 0;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .ctlg-abg {
-    margin-top: 30px;
+    padding-top: 34px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 20px;
   }
 }
 .ctlg-abd {
-  margin-left: 27px;
-  margin-right: 28px;
   padding-top: 10px;
+  padding-left: 27px;
+  padding-right: 28px;
+  padding-bottom: 24px;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-abd {
-    margin-left: 32px;
+    padding-right: 32px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -89,7 +81,6 @@
   }
 }
 .ctlg-abe {
-  font-family: "Gilroy", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 125%;
@@ -117,7 +108,7 @@
   }
 }
 .ctlg-abf {
-  font-family: "Gilroy", sans-serif;
+  font-family: 'Gilroy', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
@@ -132,8 +123,14 @@
     display: inline;
   }
 }
+.ctlg-ad {
+  display: block;
+  padding-top: 40px;
+  padding-left: 87px;
+  padding-right: 87px;
+  padding-bottom: 30px;
+}
 .ctlg-ac {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -144,10 +141,7 @@
   width: 160px;
   height: 48px;
   background: #3350e9;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+
 }
 @media only screen and (min-width: 768px) {
   .ctlg-ac {
