@@ -77,7 +77,8 @@
 }
 @media only screen and (min-width: 1280px) {
   .ctlg-abd {
-    width: 334px;
+    padding-left: 32px;
+    width: 304px;
   }
 }
 .ctlg-abe {
