@@ -1,4 +1,5 @@
 .ctlg-aa {
+  padding-top: 30px;
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 32px;
@@ -9,12 +10,17 @@
 }
 @media only screen and (min-width: 768px) {
   .ctlg-aa {
+    padding-top: 40px;
     font-size: 48px;
     line-height: 92%;
     padding-bottom: 40px;
   }
 }
-
+@media only screen and (min-width: 1280px) {
+  .ctlg-aa {
+    padding-top: 50px;
+  }
+}
 .ctlg-ab {
   display: flex;
   flex-wrap: wrap;
@@ -130,6 +136,16 @@
   padding-left: 87px;
   padding-right: 87px;
   padding-bottom: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .ctlg-ad {
+    padding-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .ctlg-ad {
+    padding-bottom: 50px;
+  }
 }
 .ctlg-ac {
   font-weight: 500;
