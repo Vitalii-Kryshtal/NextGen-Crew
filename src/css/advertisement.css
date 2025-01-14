@@ -17,8 +17,7 @@
     align-items: center;
     padding: 60px 28px;
     border-radius: 30px;
-    background-image: linear-gradient(rgb(12, 12, 12, 0.9), rgb(12, 12, 12, 0.9)),
-     url(../img/advertisement-bg-mob@1x.jpg);
+    background-image: url(../img/Advert-mob.webp), linear-gradient(rgb(12, 12, 12), rgb(12, 12, 12));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,8 +28,8 @@
 
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
 .advertisement-section { 
-    background-image: linear-gradient(rgb(12, 12, 12, 0.9), rgb(12, 12, 12, 0.9)),
-            url(../img/advertisement-bg-mob@2x.jpg);
+    background-image: url(../img/Advert-mob2@x.webp),
+        linear-gradient(rgb(12, 12, 12), rgb(12, 12, 12));
   }
 }
 
@@ -40,16 +39,16 @@
         max-width: 704px;
         max-height: 425px;
        margin: 80px auto;
-    background-image: linear-gradient(rgb(12, 12, 12, 0.9), rgb(12, 12, 12, 0.9)),
-     url(../img/advertisement-bg-tab@1x.jpg);
+    background-image: url(../img/Advert-tbl.webp),
+        linear-gradient(rgb(12, 12, 12), rgb(12, 12, 12));
     }
 }
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .advertisement-section {
-        background-image: linear-gradient(rgb(12, 12, 12, 0.9), rgb(12, 12, 12, 0.9)),
-            url(../img/advertisement-bg-tab@2x.jpg);
+        background-image: url(../img/Advert-tbl2@x.webp),
+            linear-gradient(rgb(12, 12, 12), rgb(12, 12, 12));
     }
 }
 
@@ -59,16 +58,16 @@
         max-width: 1150px;
         max-height: 298px;
         margin: 100px auto;
-        background-image: linear-gradient(rgb(12, 12, 12, 0.9), rgb(12, 12, 12, 0.9)),
-         url(../img/advertisement-bg-dec@1x.jpg);
+        background-image: url(../img/Advert-dsk.webp),
+            linear-gradient(rgb(12, 12, 12), rgb(12, 12, 12));
     }
 }
 
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .advertisement-section {
-        background-image: linear-gradient(rgb(12, 12, 12, 0.9), rgb(12, 12, 12, 0.9)),
-            url(../img/advertisement-bg-dec@2x.jpg);
+        background-image: url(../img/Advert-dsk2@x.webp),
+            linear-gradient(rgb(12, 12, 12), rgb(12, 12, 12));
     }
 }
 
