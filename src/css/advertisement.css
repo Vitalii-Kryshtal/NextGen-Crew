@@ -13,26 +13,39 @@
 
 .advertisement-section {
     padding: 60px 28px;
+    border-radius: 30px;
+    background-color: #0c0c0c;;
     background-image: url(/src/img/advertisement-bg-mob@1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+    max-width: 335px;
 }
 
 @media only screen and (min-width: 768px) {
     .advertisement-section {
         padding: 80px 64px;
+        max-width: 704px;
     }
 }
 
 @media only screen and (min-width: 1158px) {
     .advertisement-section {
         padding: 83px 80px;
+        max-width: 1150px;
     }
 }
 
-.advertisement-container {}
+/* .advertisement-container {
+    max-width: 335px;
+}
+
+@media only screen and (min-width: 768px) {
+.advertisement-container {
+        max-width: 335px;
+    }
+} */
 
 .advertisement-text {
     font-family: Gilroy;
@@ -41,7 +54,10 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
-    margin-bottom: 28px;
+    margin: 0 auto 28px;
+    display: block;
+    max-width: 279px;
+    text-align: left;
 }
 
 .advertisement-text-span {
