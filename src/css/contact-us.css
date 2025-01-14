@@ -170,6 +170,7 @@ textarea::placeholder {
   input::placeholder,
   textarea::placeholder {
     font-size: 16px;
+    resize: none;
   }
 
   .form-input-container {
