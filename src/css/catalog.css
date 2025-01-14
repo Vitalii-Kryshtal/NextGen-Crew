@@ -86,7 +86,7 @@
   line-height: 125%;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-abe {
