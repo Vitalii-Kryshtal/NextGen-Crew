@@ -1,0 +1,129 @@
+/* #region About Us */
+.aboutus-section {
+  padding: 30px 0;
+}
+.aboutus-cont {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  width: 100%;
+
+  background-color: #f3f3f3;
+}
+
+.aboutus-cont-wr {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 40px 20px;
+}
+
+.aboutus-title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 28px;
+}
+.aboutus-par {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+.par {
+  margin-bottom: 20px;
+}
+
+.aboutus-but {
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  border: none;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  margin-top: 40px;
+}
+
+.aboutus-but:hover,
+.aboutus-but:focus {
+  background-color: #1f3cd4;
+}
+
+.aboutus-cont-img {
+  margin-top: 20px;
+  border-radius: 30px;
+
+  background-color: rgba(12, 12, 12, 0.2);
+}
+.img-aboutus {
+  border-radius: 30px;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutus-section {
+    padding: 40px 0;
+  }
+  .aboutus-cont {
+    border-radius: 50px;
+    width: 704px;
+    height: 512px;
+  }
+  .aboutus-cont-wr {
+    padding: 80px 60px;
+  }
+  .aboutus-title {
+    font-size: 48px;
+    line-height: 0.91667;
+    margin-bottom: 40px;
+  }
+  .aboutus-par {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .aboutus-but {
+    margin-top: 60px;
+  }
+  .aboutus-cont-img {
+    margin-top: 40px;
+    border-radius: 50px;
+    width: 704px;
+    height: 512px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .aboutus-section {
+    padding: 50px 0;
+  }
+  .ab-us {
+    display: flex;
+    gap: 40px;
+  }
+  .aboutus-cont {
+    width: 580px;
+    height: 532px;
+  }
+  .aboutus-but {
+    margin-top: 40px;
+  }
+  .aboutus-cont-img {
+    margin-top: 0;
+    width: 530px;
+    height: 532px;
+  }
+}
+
+/* #endregion */
