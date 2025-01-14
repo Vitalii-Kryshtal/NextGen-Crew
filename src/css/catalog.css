@@ -139,10 +139,8 @@
   }
 }
 .ctlg-ad {
-  display: block;
   padding-top: 40px;
-  padding-left: 87px;
-  padding-right: 87px;
+  text-align: center;
 }
 .ctlg-ac {
   font-weight: 500;
