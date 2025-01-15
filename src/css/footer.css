@@ -61,6 +61,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  
 }
 .footer-sm-item {
   display: flex;
@@ -227,7 +228,7 @@
 }
 .footer-sm-link:hover .footer-icon,
 .footer-sm-link:focus .footer-icon {
-  fill: #fbfbfb;
+  fill: #3350e9;
 }
 .footer-sm-link {
   display: flex;
