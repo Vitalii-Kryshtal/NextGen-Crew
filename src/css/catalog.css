@@ -58,6 +58,7 @@
 @media only screen and (min-width: 768px) {
   .ctlg-abb {
     max-width: 344px;
+    max-height: 414px;
   }
 }
 @media only screen and (min-width: 1280px) {
