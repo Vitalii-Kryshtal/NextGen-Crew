@@ -26,7 +26,6 @@
   border-radius: 30px;
   padding: 48px 28px;
   background: #f3f3f3;
-  gap: 28px;
 }
 .box-form {
   display: flex;
@@ -110,6 +109,7 @@ textarea::placeholder {
   box-sizing: border-box;
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
+  resize: none;
 
   width: 100%;
   height: 84px;
@@ -117,7 +117,9 @@ textarea::placeholder {
 .textarea-field:focus {
   border-color: #4d5ae5;
 }
-
+.box-patch {
+  margin-bottom: 28px;
+}
 .submit-button {
   cursor: pointer;
   background-color: #3350e9;
@@ -195,6 +197,9 @@ textarea::placeholder {
     width: 160px;
     height: 52px;
   }
+  .box-patch {
+    margin-bottom: 32px;
+  }
   .box-contact-us {
     display: flex;
     flex-direction: column;
@@ -203,11 +208,12 @@ textarea::placeholder {
   .container-contact {
     gap: 40px;
   }
-  .container-contact-us {
-    gap: 32px;
-  }
+
   .box-form {
     gap: 32px;
+  }
+  .user-name-input {
+    height: 52px;
   }
 }
 
