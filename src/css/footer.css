@@ -68,11 +68,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgba(251, 251, 251, 0.1);
+  /* border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
   padding: 8px;
   width: 34px;
-  height: 34px;
+  height: 34px; */
 }
 @media screen and (min-width: 768px) {
   .footer-sm-item {
@@ -234,4 +234,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  width: 34px;
+  height: 34px;
 }
